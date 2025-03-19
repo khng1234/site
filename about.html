@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Christie - Enlightened 1</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#5100FF',
+secondary: '#FFB800'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.hero-section {
+background-image: url('https://public.readdy.ai/ai/img_res/8f6d02e8e5b6a3b0d3349b8fa0ca7d3f.jpg');
+background-size: cover;
+background-position: center;
+}
+.timeline-item {
+transition: all 0.3s ease;
+}
+.timeline-item:hover {
+transform: translateX(10px);
+}
+.stat-card {
+transition: all 0.3s ease;
+}
+.stat-card:hover {
+transform: translateY(-5px);
+}
+</style>
+</head>
+<body class="font-['Inter'] text-gray-900">
+
+<nav class="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16">
+<div class="flex items-center">
+<a href="https://readdy.ai/home/0f3d8cef-be4b-41c9-b8a0-3c4522b857da/178efbee-0062-4026-bacd-b681f45cc8b8" data-readdy="true" class="font-['Playfair_Display'] text-2xl font-bold text-primary">Enlightened 1</a>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#about" class="text-gray-700 hover:text-primary">Journey</a>
+<a href="#expertise" class="text-gray-700 hover:text-primary">Expertise</a>
+<a href="#testimonials" class="text-gray-700 hover:text-primary">Success Stories</a>
+<a href="#contact" class="text-gray-700 hover:text-primary">Connect</a>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap cursor-pointer">
+Book a Session
+</button>
+</div>
+</div>
+</div>
+</nav>
+
+<section class="hero-section min-h-[70vh] flex items-center relative">
+<div class="absolute inset-0 bg-black/40"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<a href="https://readdy.ai/home/0f3d8cef-be4b-41c9-b8a0-3c4522b857da/178efbee-0062-4026-bacd-b681f45cc8b8" data-readdy="true" class="inline-flex items-center text-white mb-8 hover:text-secondary transition-colors">
+<i class="ri-arrow-left-line mr-2"></i>
+Back to Home
+</a>
+<div class="text-white max-w-4xl">
+<h1 class="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-8">
+A Transformational Guide for Leaders, Seekers & Visionaries
+</h1>
+<p class="text-xl md:text-2xl mb-8 leading-relaxed">
+Combining spiritual wisdom with strategic business acumen to help leaders achieve extraordinary results.
+</p>
+</div>
+</div>
+</section>
+
+<section id="about" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 gap-16 items-center mb-24">
+<div>
+<img src="https://public.readdy.ai/ai/img_res/555e263605e1ed6d50010cd840fe3fac.jpg" alt="Christie Tufts" class="rounded-lg shadow-xl w-full object-cover">
+</div>
+<div>
+<h2 class="font-['Playfair_Display'] text-4xl font-bold mb-8">Meet Christie Tufts</h2>
+<div class="space-y-6 text-lg text-gray-700">
+<p>For over 15 years, I've dedicated my life to bridging the gap between spiritual wisdom and business leadership. My journey began in the corporate world, where I spent a decade in high-stakes real estate before discovering my true calling as a transformational guide.</p>
+<p>As a certified leadership coach and psychic medium, I bring a unique perspective to personal and professional development. My approach combines traditional business strategies with intuitive guidance, helping leaders make decisions that align with both their business goals and their higher purpose.</p>
+<p>Today, I work with CEOs, entrepreneurs, and visionary leaders worldwide, helping them break through limitations and achieve extraordinary results while maintaining spiritual alignment.</p>
+</div>
+</div>
+</div>
+
+<div class="relative">
+<div class="absolute left-1/2 transform -translate-x-1/2 border-l-2 border-primary/20 h-full"></div>
+<div class="space-y-24 relative">
+<div class="timeline-item grid md:grid-cols-2 gap-8 items-center">
+<div class="text-right md:pr-16">
+<span class="text-sm text-gray-500">2010 - 2015</span>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-4">Corporate Leadership</h3>
+<p class="text-gray-700">Led major real estate developments and transactions, managing portfolios worth over $500M. Developed key leadership skills and business acumen.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[25px] top-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-building-line text-primary text-xl"></i>
+</div>
+</div>
+</div>
+
+<div class="timeline-item grid md:grid-cols-2 gap-8 items-center">
+<div class="md:col-start-2 md:pl-16">
+<span class="text-sm text-gray-500">2015 - 2018</span>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-4">Spiritual Awakening</h3>
+<p class="text-gray-700">Intensive study of spiritual practices, meditation, and energy work. Certified as a psychic medium and spiritual guide.</p>
+</div>
+<div class="relative md:col-start-1 md:row-start-1">
+<div class="absolute -right-[25px] top-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-mind-map-line text-primary text-xl"></i>
+</div>
+</div>
+</div>
+
+<div class="timeline-item grid md:grid-cols-2 gap-8 items-center">
+<div class="text-right md:pr-16">
+<span class="text-sm text-gray-500">2018 - 2021</span>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-4">Leadership Coaching</h3>
+<p class="text-gray-700">Developed innovative coaching methodologies combining business strategy with spiritual guidance. Worked with Fortune 500 executives.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[25px] top-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-team-line text-primary text-xl"></i>
+</div>
+</div>
+</div>
+
+<div class="timeline-item grid md:grid-cols-2 gap-8 items-center">
+<div class="md:col-start-2 md:pl-16">
+<span class="text-sm text-gray-500">2021 - Present</span>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-4">Global Impact</h3>
+<p class="text-gray-700">Expanded reach to serve clients worldwide. Launched transformational programs and workshops impacting thousands of leaders.</p>
+</div>
+<div class="relative md:col-start-1 md:row-start-1">
+<div class="absolute -right-[25px] top-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-global-line text-primary text-xl"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="expertise" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="font-['Playfair_Display'] text-4xl font-bold text-center mb-16">Expertise & Impact</h2>
+
+<div class="grid md:grid-cols-3 gap-8 mb-16">
+<div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-user-star-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-4xl font-bold mb-2">500+</h3>
+<p class="text-gray-700">Leaders Transformed</p>
+</div>
+
+<div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-building-2-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-4xl font-bold mb-2">50+</h3>
+<p class="text-gray-700">Fortune 500 Companies</p>
+</div>
+
+<div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-global-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-4xl font-bold mb-2">25+</h3>
+<p class="text-gray-700">Countries Served</p>
+</div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-16">
+<div>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-8">Areas of Excellence</h3>
+<div class="space-y-6">
+<div class="flex items-start">
+<div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-leadership-line text-primary text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-2">Executive Leadership Development</h4>
+<p class="text-gray-700">Strategic decision-making, team building, and visionary leadership</p>
+</div>
+</div>
+
+<div class="flex items-start">
+<div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-psychotherapy-line text-primary text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-2">Intuitive Business Guidance</h4>
+<p class="text-gray-700">Combining spiritual insight with practical business strategy</p>
+</div>
+</div>
+
+<div class="flex items-start">
+<div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-mind-map-line text-primary text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-2">Personal Transformation</h4>
+<p class="text-gray-700">Breaking limiting patterns and accessing higher potential</p>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+<h3 class="font-['Playfair_Display'] text-2xl font-bold mb-8">Client Growth Metrics</h3>
+<div id="growthChart" class="w-full h-[300px]"></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="testimonials" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="font-['Playfair_Display'] text-4xl font-bold text-center mb-16">Success Stories</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-8 rounded-lg">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/6cb3b683b671fad8f17fb26de5d2e6cf.jpg" alt="Jennifer Matthews" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold">Jennifer Matthews</h4>
+<p class="text-sm text-gray-600">CEO, Global Innovations Inc</p>
+</div>
+</div>
+<p class="text-gray-700 italic">"Christie's guidance transformed not just my leadership style, but our entire company culture. Our revenue has grown 300% since implementing her strategies."</p>
+</div>
+
+<div class="bg-gray-50 p-8 rounded-lg">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/931de33e1661d0f91a618d433c947719.jpg" alt="David Anderson" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold">David Anderson</h4>
+<p class="text-sm text-gray-600">Managing Partner, Venture Capital</p>
+</div>
+</div>
+<p class="text-gray-700 italic">"Working with Christie helped me make crucial decisions with both clarity and confidence. Her intuitive insights have been invaluable to our investment strategy."</p>
+</div>
+
+<div class="bg-gray-50 p-8 rounded-lg">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/2bed3fd22ed2c8ae468fc113521c3613.jpg" alt="Michelle Chang" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold">Michelle Chang</h4>
+<p class="text-sm text-gray-600">Founder, Tech Solutions Co</p>
+</div>
+</div>
+<p class="text-gray-700 italic">"Christie's unique approach to combining business strategy with spiritual guidance has been transformative. We've seen unprecedented growth and team alignment."</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 gap-16">
+<div>
+<h2 class="font-['Playfair_Display'] text-4xl font-bold mb-8">Ready to Transform Your Leadership?</h2>
+<p class="text-lg text-gray-700 mb-8">Schedule a personal consultation to discuss how we can work together to unlock your highest potential.</p>
+
+<div class="space-y-6">
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-calendar-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold">Book a Session</h4>
+<p class="text-gray-600">60-minute transformational consultation</p>
+</div>
+</div>
+
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-mail-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold">Email</h4>
+<p class="text-gray-600">christie@enlightened1.com</p>
+</div>
+</div>
+
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-map-pin-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold">Location</h4>
+<p class="text-gray-600">Virtual sessions worldwide</p>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+<form id="contactForm" class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+</div>
+
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+<input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+</div>
+
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Interest Area</label>
+<select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent pr-8" required>
+<option value="">Select an option</option>
+<option value="leadership">Leadership Coaching</option>
+<option value="spiritual">Spiritual Guidance</option>
+<option value="corporate">Corporate Programs</option>
+<option value="personal">Personal Transformation</option>
+</select>
+</div>
+
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+<textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required></textarea>
+</div>
+
+<button type="submit" class="w-full bg-primary text-white px-6 py-3 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap cursor-pointer">
+Schedule Consultation
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-gray-900 text-white py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<a href="https://readdy.ai/home/0f3d8cef-be4b-41c9-b8a0-3c4522b857da/178efbee-0062-4026-bacd-b681f45cc8b8" data-readdy="true" class="font-['Playfair_Display'] text-xl font-bold mb-4 block">Enlightened 1</a>
+<p class="text-gray-400">
+Transformational leadership coaching and spiritual guidance for visionary leaders.
+</p>
+</div>
+
+<div>
+<h4 class="font-semibold mb-4">Quick Links</h4>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#about" class="hover:text-white transition-colors">About Christie</a></li>
+<li><a href="#expertise" class="hover:text-white transition-colors">Expertise</a></li>
+<li><a href="#testimonials" class="hover:text-white transition-colors">Success Stories</a></li>
+<li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="font-semibold mb-4">Connect</h4>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 transition-all">
+<i class="ri-linkedin-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 transition-all">
+<i class="ri-instagram-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-white/20 transition-all">
+<i class="ri-facebook-line"></i>
+</a>
+</div>
+</div>
+
+<div>
+<h4 class="font-semibold mb-4">Newsletter</h4>
+<form class="flex">
+<input type="email" placeholder="Your email" class="flex-1 px-4 py-2 bg-gray-800 border-none rounded-l-lg focus:ring-2 focus:ring-primary">
+<button type="submit" class="bg-primary px-4 py-2 !rounded-r-lg hover:bg-opacity-90 transition-all whitespace-nowrap cursor-pointer">
+Subscribe
+</button>
+</form>
+</div>
+</div>
+
+<div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+<p>&copy; 2025 Enlightened 1 by Christie Tufts. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const chart = echarts.init(document.getElementById('growthChart'));
+const option = {
+animation: false,
+tooltip: {
+trigger: 'axis',
+backgroundColor: 'rgba(255, 255, 255, 0.9)',
+textStyle: {
+color: '#1f2937'
+}
+},
+grid: {
+top: 10,
+right: 10,
+bottom: 20,
+left: 40
+},
+xAxis: {
+type: 'category',
+data: ['Q1', 'Q2', 'Q3', 'Q4'],
+axisLine: {
+lineStyle: {
+color: '#e5e7eb'
+}
+}
+},
+yAxis: {
+type: 'value',
+axisLine: {
+lineStyle: {
+color: '#e5e7eb'
+}
+},
+splitLine: {
+lineStyle: {
+color: '#e5e7eb'
+}
+}
+},
+series: [
+{
+name: 'Revenue Growth',
+type: 'line',
+smooth: true,
+data: [120, 180, 240, 320],
+lineStyle: {
+color: 'rgba(87, 181, 231, 1)'
+},
+areaStyle: {
+color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+{
+offset: 0,
+color: 'rgba(87, 181, 231, 0.3)'
+},
+{
+offset: 1,
+color: 'rgba(87, 181, 231, 0.1)'
+}
+])
+}
+},
+{
+name: 'Team Performance',
+type: 'line',
+smooth: true,
+data: [100, 160, 210, 280],
+lineStyle: {
+color: 'rgba(141, 211, 199, 1)'
+},
+areaStyle: {
+color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+{
+offset: 0,
+color: 'rgba(141, 211, 199, 0.3)'
+},
+{
+offset: 1,
+color: 'rgba(141, 211, 199, 0.1)'
+}
+])
+}
+}
+]
+};
+chart.setOption(option);
+
+window.addEventListener('resize', function() {
+chart.resize();
+});
+
+const form = document.getElementById('contactForm');
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+const notification = document.createElement('div');
+notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg transform transition-all duration-500 translate-y-full';
+notification.textContent = 'Thank you for your interest! We will contact you soon.';
+document.body.appendChild(notification);
+setTimeout(() => {
+notification.style.transform = 'translateY(0)';
+}, 100);
+setTimeout(() => {
+notification.style.transform = 'translateY(full)';
+setTimeout(() => {
+notification.remove();
+}, 500);
+}, 3000);
+form.reset();
+});
+
+const navLinks = document.querySelectorAll('a[href^="#"]');
+navLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+targetElement.scrollIntoView({
+behavior: 'smooth'
+});
+}
+});
+});
+});
+</script>
+</body>
+</html>
